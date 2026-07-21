@@ -1,18 +1,18 @@
 # AI-ML Assignment 2: Customer Churn Prediction using Logistic Regression
 
-## 📌 Objective
+## Objective
 The objective of this assignment is to develop and evaluate a **Logistic Regression** model using Pandas and Scikit-Learn to predict customer churn for a telecommunications company based on demographic information and service usage patterns.
 
 ---
 
-## 📊 Dataset Link
+## Dataset Link
 - **Dataset**: Telco Customer Churn Dataset
 - **Source**: [Kaggle Telco Customer Churn Link](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - *Note: As per submission instructions, the raw dataset file is not uploaded directly to this repository. Please download `WA_Fn-UseC_-Telco-Customer-Churn.csv` from the link above and place it in the project root folder before running the code.*
 
 ---
 
-## 🛠️ Libraries Used
+## Libraries Used
 - `pandas` - Data loading, cleaning, and preprocessing
 - `numpy` - Array manipulation and numerical operations
 - `scikit-learn` - Model building (`LogisticRegression`), data splitting (`train_test_split`), scaling (`StandardScaler`), and metrics evaluation (`accuracy_score`, `precision_score`, `recall_score`, `f1_score`, `confusion_matrix`)
@@ -20,7 +20,7 @@ The objective of this assignment is to develop and evaluate a **Logistic Regress
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 1. **Task 1: Data Understanding**
    - Dataset loaded using Pandas.
@@ -52,7 +52,7 @@ The objective of this assignment is to develop and evaluate a **Logistic Regress
 
 ---
 
-## 📈 Key Observations & Results
+## Key Observations & Results
 
 1. **Overall Performance**: The model achieves an overall accuracy of **80.5%**, providing a solid baseline for customer churn classification.
 2. **Precision vs. Recall**: Precision (66.0%) is noticeably higher than Recall (54.0%), indicating that while the model is accurate when it predicts a customer will churn, it fails to identify approximately 46% of all actual churners.
@@ -60,7 +60,7 @@ The objective of this assignment is to develop and evaluate a **Logistic Regress
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 In this assignment, a Logistic Regression model was developed to predict telecommunications customer churn using demographic and service subscription data. Key findings reveal that customer retention is strongly influenced by contract terms and tenure duration; customers on short month-to-month contracts and electronic check payments show significantly higher churn rates than long-term account holders.
 
